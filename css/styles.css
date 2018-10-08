@@ -52,7 +52,7 @@ b {
     padding: 15px 0 10px 0;
 }
 .HeaderContentThreePartOne > a {
-    padding: 14px;
+    padding: 14px 0 0 0;
 }
 .SectionOneContent-two > p {
     color: #808080;
@@ -83,4 +83,49 @@ span.notes {
 em {
     font-style: normal;
     color: #6a6a6a;
+}
+.imageslist > img {
+    width: 80%;
+    height: 90px;
+}
+.imageslist {
+    margin: 7px 0 0 0;
+}
+.imageslistcontent >a {
+    color:#1a0dab;
+}
+.imageslistcontenttwo > p {
+    float: right;
+    margin: 0;
+    color: #808080;
+    font-size: 13px;
+    margin: 2px 26px 0 0px;
+}
+.imageslistcontent {
+    margin: 3px 0 0 0;
+}
+.searchlist {
+    display: inline-flex;
+}
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    list-style: none;
+    padding:0;
+}
+ul li a{
+    color:#1a0dab;
+}
+.searchlist > ul li {
+    padding: 3px 32px 3px 0;
+}
+ul li a b{
+    color:#1a0dab;
+}
+ul#seachlisttwo {
+    padding: 0 0 0 100px;
+}
+.searchreleated > h5 {
+    color: #222;
+    margin: 15px 0 15px 0;
 }
