@@ -9,6 +9,10 @@ body{
     padding-right: 0px;
     padding-left: 0px; 
 }
+b {
+    font-style: normal;
+    color: #6a6a6a;
+}
 .row {
     display: -ms-flexbox;
     display: flex;
@@ -23,9 +27,10 @@ body{
 .HeaderContentOne {
     margin: 20px 10px 0 10px;
 }
-.header{
+.header {
     background-color: #fafafa;
-    padding: 10px 0 0 0;
+    padding: 15px 0 0 0;
+    border-bottom: 1px solid #ebebeb;
 }
 .HeaderContentTwo {
     margin: 15px 0 0 0px;
@@ -34,12 +39,48 @@ body{
 }
 .HeaderContentTwoImage >img {
     float: right;
-    padding: 3px 0 4px 0;
+    padding: 11px 5px 3px 1px;
     margin: 0 0 0 0;
-    width: 9%;
+    width: 10%;
 }
 .HeaderContentTwoPartOne > h1 {
     font-size: 20px;
-    padding: 8px;
+    padding: 14px;
     margin: 0;
+}
+.HeaderContentThreePartOne {
+    padding: 15px 0 10px 0;
+}
+.HeaderContentThreePartOne > a {
+    padding: 14px;
+}
+.SectionOneContent-two > p {
+    color: #808080;
+    margin: 0;
+    font-size: 13px;
+    padding: 15px 0 0 0;
+}
+.SectionTwoDivisionOnePart > a h3 {
+    font-size: 20px;
+    padding-top: 15px;
+    color: #1a0dab;
+    margin: 0;
+}
+a#profilelink {
+    color: #006621;
+    font-style: normal;
+    text-decoration: none;
+}
+.notesclass {
+    color: #545454;
+}
+span.notes {
+    line-height: 1.4;
+    word-wrap: break-word;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+}
+em {
+    font-style: normal;
+    color: #6a6a6a;
 }
