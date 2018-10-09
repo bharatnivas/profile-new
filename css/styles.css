@@ -129,3 +129,106 @@ ul#seachlisttwo {
     color: #222;
     margin: 15px 0 15px 0;
 }
+.SectionTwoDivisionTwoPart{
+    border: 1px solid #ebebeb; 
+}
+.contentfixpartone {
+    padding: 16% 0 0 10px;
+}
+.contentfixparttwo > img {
+    width: 100%;
+    height: 170px;
+}
+.contentfixpartone > h1 {
+    color: rgba(0,0,0,.87);
+    line-height: 1.2;
+    margin:0;
+    font-size: 30px;
+    font-weight: normal;
+}
+.contentfixpartone > p {
+    color: #777;
+    margin: 0;
+    font-size: 14px;
+}
+.contentfix {
+    border-bottom: 1px solid #ebebeb;
+}
+.contentfixparttwo > h1 {
+    color: #222;
+    font-size: 18px;
+    margin: 0;
+    padding: 15px 0 5px 10px;
+}
+.availablelist {
+    border-top: 1px solid #ebebeb;
+    padding: 7px 0 10px 0;
+    margin: 1px 10px 0 10px;
+}
+.availablelist > a {
+    color: rgba(0,0,0,.87);
+    padding: 15px 0px 0px 10px;
+    font-size: 13px;
+}
+.contentfixthree {
+    padding: 5px 20px 10px 10px;
+}
+.contentfixthree p {
+    font-family: arial,sans-serif;
+    margin: 0;
+}
+b#profilealign {
+    color: #222;
+    font-weight: 500;
+    font-size: 16px;
+}
+.contentfixthree > h5 {
+    font-size: 17px;
+    color: #1a0dab;
+    padding: 3px 0 0 0px;
+    margin: 0;
+}
+.projectlist > img {
+    width: 95px;
+    height: 100px;
+}
+.githubproject {
+    padding: 10px;
+}
+.githubproject > h5 {
+    color: #222;
+    font-size: 17px;
+    margin: 0;
+    padding: 0px 0 15px 0px;
+}
+.projectlist a {
+    color: #1a0dab;
+    font-size: 14px;
+}
+.projectlist p {
+    color: #777;
+    margin: 0;
+    font-size: 11px;
+}
+.profilelist{
+    padding:0px 10px 10px 10px;
+}
+.profilelist h5{
+    color: #222;
+    font-size: 17px;
+    margin: 0;
+    padding: 5px 0 10px 0px;
+}
+.profilelistcontent > img {
+    width: 64px;
+}
+.profilelistcontent > h5 {
+    color: #222;
+    font-size: 17px;
+    margin: 0;
+    padding: 0px 0 8px 0px;
+}
+.profilelistcontent a {
+    color: #1a0dab;
+    font-size: 14px;
+}
