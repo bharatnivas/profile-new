@@ -409,9 +409,24 @@ div#spacealign {
     div#spacealign {
         padding: 0 20px 0px 0px;
     }
+    .Searchbarcontent-two > img{
+        width:13%;
+    }
 }
 @media  screen and (max-width:576px) {
     .taskdone img {
         height: 130px;
+    }
+    .Searchbarcontent-two > img{
+        width:16%;
+    }
+    div#spacealign {
+        padding: 0 5px 0 0;
+    }
+    .taskdone a{
+        padding: 5px;
+    }
+    .taskdone p{
+        padding: 0 0 10px 5px;
     }
 }
