@@ -232,3 +232,186 @@ b#profilealign {
     color: #1a0dab;
     font-size: 14px;
 }
+/* mobiledevice */
+.logofix {
+    text-align: center;
+}
+.Searchbar{
+    margin: 15px 10px 0 10px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    background-color: #fff;
+}
+.Searchbarcontent-one > h1{
+    font-size: 20px;
+    padding: 14px;
+    margin: 0;
+}
+.Searchbarcontent-two > img{
+    float: right;
+    padding: 11px 5px 3px 1px;
+    margin: 0 0 0 0;
+    width: 10%;
+}
+.navigate {
+    padding: 0 13px 0px;
+}
+.mobiledevicecontent {
+    padding: 10px;
+    background-color: #fafafa;
+}
+.profileview {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: #424242;
+}
+.profileviewtwo > img {
+    width: 82px;
+    float: right;
+    border-top-right-radius: 8px;
+}
+.profileviewone > h1 {
+    color: rgba(243, 243, 243, 0.87);
+    line-height: 1.2;
+    margin: 0;
+    font-size: 30px;
+    font-weight: normal;
+}
+.profileviewone > p{
+    color: rgba(255,255,255,.7);
+    margin: 0;
+    font-size: 14px;
+}
+.profileviewone {
+    padding: 30px 0 0 10px;
+}
+.availablecontent {
+    border:  1px solid #ebebeb;
+    background-color: #fff;
+}
+.availableview-one h5 {
+    padding: 10px 0 0 10px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 800;
+}
+.availableview-two {
+    border-radius: 50%;
+    border: 1px solid #DFE1E5;
+    margin: 0 0 0 20px;
+    padding: 11px;
+}
+.avilableitems {
+    display: flex;
+}
+.availableheader > a {
+    padding: 0px 0 0 20px;
+    color: rgba(0,0,0,.87);
+    font-size: 13px;
+}
+.availableheader {
+    padding: 2px 0 6px 1px;
+}
+.bharatnotes {
+    border: 1px solid #ebebeb;
+    background-color: #fff;
+    padding: 13px;
+}
+.bharatnotes > p {
+    margin: 0px 0 5px 0;
+    color: #3C4043;
+    font-size: 14px;
+}
+b#notesalign {
+    color: #222;
+    font-weight: 500;
+    font-size: 14px;
+}
+.bharatnotes > h5 {
+    font-size: 14px;
+    color: #1967D2;
+}
+.tasklist{
+    border: 1px solid #ebebeb;
+    background-color: #fff;
+    padding: 13px;
+}
+.tasklist h5 {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 800;
+}
+.taskdone {
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+}
+.taskdone img {
+    border-radius: 5px;
+    width: 100%;
+    height: 220px;
+    padding: 0 0 10px 0px;
+}
+.taskdone a {
+    color: #1a0dab;
+    font-size: 14px;
+    padding: 0 0 0 15px;
+}
+.taskdone p{
+    color: #777;
+    margin: 0;
+    font-size: 11px;
+    padding: 0 0 10px 15px;
+}
+div#spacealign {
+    padding: 0 50px 0px 0px;
+}
+.socialid{
+    border: 1px solid #ebebeb;
+    background-color: #fff;
+    padding: 13px;
+}
+.socialid h5{
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 800;
+}
+.profileid {
+    padding: 0 0 15px 0;
+}
+.profileid a{
+    color: #1a0dab;  
+}
+.searchcontent{
+    border: 1px solid #ebebeb;
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+@media screen and (max-width: 2000px) and (min-width: 991px)  {
+    .mobiledevice{
+        display:none;
+    }
+}
+@media screen and (max-width: 992px) {
+    .header{
+        display:none;
+    }
+    .SectionOne{
+        display:none;
+    }
+    .SectionTwo{
+        display:none;
+    }
+    .header.mobd{
+        display:block;
+    }
+}
+@media screen and (max-width: 768px) {
+    div#spacealign {
+        padding: 0 20px 0px 0px;
+    }
+}
+@media  screen and (max-width:576px) {
+    .taskdone img {
+        height: 130px;
+    }
+}
